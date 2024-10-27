@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        * {
+          margin: 0;
+          padding: 0;
+        }
+        body {
+          font-family: Arial, sans-serif;
+        }
+      </style>
+</head>
+<body class=" bg-green-200">
+    <nav id="nav" class="bg-gray-800 p-4 text-white font-bold w-full">
+      <div id="navCont">
+        <ul id="pageList" class="flex flex-col md:flex-row gap-4">
+          <li
+            id="home"
+            class="text-white hover:text-blue-600 focus:outline-none"
+          >
+            <a href="./index.html">Home</a>
+          </li>
+          <li
+            id="calculator"
+            class="text-white hover:text-blue-600 focus:outline-none"
+          >
+            <a href="./calculator.html">Calculator</a>
+          </li>
+          <li
+            id="about"
+            class="text-white hover:text-blue-600 focus:outline-none"
+          >
+            <a href="./about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  <section class="grid grid-cols-4 gap-4 grid-areas h-[100vh] ">
+      <header class="flex flex-col items-center justify-center header col-span-4 bg-blue-400 border p-8">
+          <h1>Hello, I am Nasif. This is my project for level-1 exam</h1>
+          <h1>Thank You</h1>
+      </header>
+  </section>
+  <footer
+      id="footer"
+      class="bg-gray-800 text-white text-center p-4 text-sm md:text-base font-semibold">
+      Copyright © 2022 All Rights Reserved.
+    </footer>
+</body>
+</html>
